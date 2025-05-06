@@ -27,5 +27,9 @@
   "homepage": "https://github.com/lwe8/textile-core#readme",
   "dependencies": {
     "@lwe8/build": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
