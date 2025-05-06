@@ -1,0 +1,31 @@
+{
+  "name": "@lwe8/textile-core",
+  "version": "0.1.0",
+  "description": "Textile core",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwe8/textile-core.git"
+  },
+  "keywords": [
+    "Textile"
+  ],
+  "author": "lwe8",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lwe8/textile-core/issues"
+  },
+  "homepage": "https://github.com/lwe8/textile-core#readme",
+  "dependencies": {
+    "@lwe8/build": "^0.1.0"
+  }
+}
