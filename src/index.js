@@ -1015,10 +1015,10 @@ function parsePhrase(src, options) {
 re.pattern.txlisthd = txlisthd;
 re.pattern.txlisthd2 = txlisthd2;
 const reList = re.compile(
-  /^((?:[:txlisthd:][^\0]*?(?:\r?\n|$))+)(\s*\n|$)/,
+  /^((?:[:txlisthd:][^\n:]*?(?:\r?\n|$))+)(\s*\n|$)/,
   "s"
 );
-const _reItem = re.compile(/^([#*]+)([^\0]+?)(\n(?=[:txlisthd2:])|$)/, "s");
+const _reItem = re.compile(/^([#*]+)([^\n]+?)(\n(?=[:txlisthd2:])|$)/, "s");
 
 function listPad(n) {
   let s = "\n";
